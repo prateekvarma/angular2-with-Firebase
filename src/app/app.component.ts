@@ -12,11 +12,11 @@ export class AppComponent {
   constructor() {
       // Initialize Firebase
   var config = {
-    apiKey: "AIzaSyCnXVQq2E4lMGz9-xK1aggcA_MZwUGwGXU",
-    authDomain: "scorching-fire-5416.firebaseapp.com",
-    databaseURL: "https://scorching-fire-5416.firebaseio.com",
-    storageBucket: "scorching-fire-5416.appspot.com",
-    messagingSenderId: "558764680726"
+    apiKey: "yourkey",
+    authDomain: "firebase domain",
+    databaseURL: "your db url",
+    storageBucket: "your storage bucket",
+    messagingSenderId: "your sender id"
   };
   initializeApp(config);
   
